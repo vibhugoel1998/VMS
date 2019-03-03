@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">VMS</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pressure">Pressure</string>
+    <string name="title_activity_dis_pressure">DisPressure</string>
+    <string name="title_activity_mechanics">Mechanics</string>
+    <string name="title_activity_choose_upor_in">ChooseUporIn</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_sign_in">SignIn</string>
+    <string name="title_activity_complaint">Complaint</string>
+    <string name="title_activity_parameterinfo">Parameterinfo</string>
+    <string name="title_activity_additional_features">AdditionalFeatures</string>
+    <string name="title_activity_pinfo">PInfo</string>
+    <string name="title_activity_lastten">Lastten</string>
+    <string name="title_activity_result">Result</string>
+    <string name="title_activity_output">Output</string>
+</resources>

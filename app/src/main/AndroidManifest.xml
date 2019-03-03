@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vibhu.vms">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pressure"
+            android:label="@string/title_activity_pressure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DisPressure"
+            android:label="@string/title_activity_dis_pressure"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Mechanics"
+            android:label="@string/title_activity_mechanics"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ChooseUporIn"
+            android:label="@string/title_activity_choose_upor_in"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignIn"
+            android:label="@string/title_activity_sign_in"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Complaint"
+            android:label="@string/title_activity_complaint"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Parameterinfo"
+            android:label="@string/title_activity_parameterinfo"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AdditionalFeatures"
+            android:label="@string/title_activity_additional_features"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Lastten"
+            android:label="@string/title_activity_lastten"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Result"
+            android:label="@string/title_activity_result"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Output"
+            android:label="@string/title_activity_output"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

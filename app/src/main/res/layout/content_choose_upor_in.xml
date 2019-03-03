@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#778899"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="40sp"
+        android:text="Wecome to Vehicle Monitoring System"
+        android:textColor="#000"
+        android:layout_height="200dp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="200dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="SIGN UP"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:onClick="SiggnUp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:text="OR"
+        android:textColor="#000"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="100dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="200dp"
+            android:text="SIGN IN"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:onClick="SiggnIn"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="40dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+            <ImageView
+                android:layout_width="100dp"
+                android:src="@drawable/sos"
+                android:scaleType="fitXY"
+                android:onClick="Sos"
+                android:layout_gravity="center"
+                android:layout_height="100dp" />
+    </LinearLayout>
+
+</LinearLayout>

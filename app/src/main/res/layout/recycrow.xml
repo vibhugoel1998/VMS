@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:scaleType="fitXY"
+        android:id="@+id/mechimg"
+        android:src="@drawable/mechanic"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"/>
+    <TextView
+        android:layout_width="150dp"
+        android:layout_weight="1"
+        android:id="@+id/mechtext"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_height="match_parent" />
+</LinearLayout>
